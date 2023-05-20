@@ -1,0 +1,52 @@
+.first {
+  background: linear-gradient(239.26deg, #DDEEED 63.17%, #FDF1E0 94.92%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: static;
+  overflow:hidden;
+ }
+ 
+ .second {
+  background: linear-gradient(to top, #96fbc4 0%, #f9f586 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: static;
+  overflow:hidden;
+ }
+ 
+ .third {
+  background: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: static;
+  overflow:hidden;
+ } 
+
+
+ .chatbot{
+  margin-top: 100px;
+  padding-bottom: 100px;
+}
+.bubbles {
+display: flex;
+flex-direction: column;
+position: relative;
+top: 100;
+left: 30%;
+
+}
+.form {
+  position: fixed;
+  bottom: 20px;
+  left: 30%;
+  width: 40%;
+}
+.form input {
+  margin: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 10px;
+  border: none;
+  background-color:#F5FCE2 ;
+}
